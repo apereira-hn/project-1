@@ -3,6 +3,11 @@
   src: url(../fonts/Manrope-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: anta;
+  src: url(../fonts/Anta-Regular.ttf);
+}
+
 body {
   font-family: manrope;
   width: 960px;
@@ -115,11 +120,16 @@ nav ul li ul li {
   }
 }
 
-.home-h1 {
-  font-family: manrope;
+.home-page {
+  font-family: anta;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 100px 0 0 0;
+  h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
 }
 
 .tg {
