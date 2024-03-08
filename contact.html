@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Bold Statement</title>
+        <meta name="description"
+            content="Full Stack Java DevOps - HTML/Project-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <ul class="nav-ul">
+                        <li class="nav-ul-li">
+                            <a href="home.html"><img width="30px" height="30px"
+                                    src="images/icons8-home.svg"
+                                    alt="home" /></a>
+                        </li>
+                        <li class="nav-ul-li">
+                            <a href="about.html">About</a>
+                            <ul>
+                                <li><a class="dropdown-item"
+                                        href="mission.html">Mission</a></li>
+                                <li><a class="dropdown-item"
+                                        href="staff.html">Staff</a></li>
+                                <hr size="2px" color="black" />
+                            </ul>
+                        </li>
+                        <li class="nav-ul-li">
+                            <a href="events.html">Events</a>
+                            <ul>
+                                <li><a class="dropdown-item"
+                                        href="gallery.html">Gallery</a></li>
+                                <hr size="2px" color="black" />
+                            </ul>
+                        </li>
+                        <li class="nav-ul-li"><a
+                                href="articles.html">Articles</a></li>
+                        <li class="nav-ul-li"><a
+                                href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="main-body">
+                <h2>.contact form</h2>
+                <form class="form" action="https://hnitest.go.yj.fr/"
+                    target="_blank"
+                    method="post">
+                    <div class="form-field-wrapper">
+                        <div class="form-flname-wrapper">
+                            <input class="form-flname" id="lastname" type="text"
+                                name="lastname" placeholder="Last Name" />
+                            <input class="form-flname" id="firstname"
+                                type="text"
+                                name="firstname" placeholder="First Name" />
+                        </div>
+                        <input class="form-email" id="email" type="email"
+                            name="email" placeholder="e-Mail" />
+                        <textarea class="form-request" id="request"
+                            name="request"
+                            cols="66" rows="10"
+                            placeholder="Request"></textarea>
+                        <div class="form-country-submit-wrapper">
+                            <select class="form-country" id="country"
+                                name="country">
+                                <option value disabled selected
+                                    hidden>Country</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="France">France</option>
+                                <option value="United Kingdom">United
+                                    Kingdom</option>
+                                <option value="Madagascar">Madagascar</option>
+                            </select>
+                            <input class="form-submit" id="submit" type="submit"
+                                value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </main>
+            <footer class="footer">Icons by&nbsp;<a href="https://icons8.com/"
+                    target="_blank">Icons8</a></footer>
+        </div>
+    </body>
+</html>
